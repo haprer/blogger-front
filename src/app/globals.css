@@ -4,18 +4,22 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #18181a;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #18181a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.jodit-wysiwyg {
+  color: black; /* Exclude editor from the global foreground color */
 }
