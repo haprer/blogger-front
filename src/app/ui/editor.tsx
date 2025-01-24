@@ -22,6 +22,7 @@ const EditorComponent: React.FC = () => {
         uploader: {
             insertImageAsBase64URI: true,
         },
+        removeButtons: ['file'],   //do not allow adding a file
     }), []);
 
     return (

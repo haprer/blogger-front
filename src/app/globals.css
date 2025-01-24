@@ -7,9 +7,11 @@
   --foreground: #18181a;
 }
 
-/* @media (prefers-color-scheme: dark) {
+/* No dark mode for now - I just don't like the way it looks */
+/* 
+@media (prefers-color-scheme: dark) {
   :root {
-    --background: #18181a;
+    --background: #3f3f46;  
     --foreground: #ededed;
   }
 } */
