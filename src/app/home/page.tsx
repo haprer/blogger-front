@@ -2,12 +2,10 @@ import { lusitana } from '@/app/ui/fonts';
 // import { Suspense } from 'react';
 import BlogDigest from '@/app/ui/home/blogdigest';
 import { pageOneBlogs } from '@/app/lib/test_data';
-
+import SaveButton from '@/app/ui/home/savebutton';
 
 export default async function Page() {
   
-  
-
 
   return (
     <main>
@@ -22,6 +20,7 @@ export default async function Page() {
           ))}
         </div>
       </div>
+      <SaveButton />
     </main>
   );
 }
