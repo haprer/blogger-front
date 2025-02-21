@@ -2,7 +2,7 @@
 // Type Definitions 
 
 
-export type Blog = {
+export type Post = {
     id: string, 
     title: string, 
     author: string,  

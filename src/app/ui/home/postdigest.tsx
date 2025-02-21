@@ -1,15 +1,15 @@
 import { ArrowPathIcon } from '@heroicons/react/24/outline';
-import { Blog } from '@/app/lib/definitions';
+import { Post } from '@/app/lib/definitions';
 
 
 
 
 type BlogDigestProps = {
-  blog: Blog; // Use the existing Blog type
+  blog: Post; // Use the existing Blog type
 };
 
 
-export default function BlogDigest({ blog }: BlogDigestProps) {
+export default function PostDigest({ blog }: BlogDigestProps) {
 
   return (
     <div className="flex w-full flex-col md:col-span-4">
