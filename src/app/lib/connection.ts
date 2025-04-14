@@ -21,7 +21,7 @@ export async function saveBlogPost(post: { title: string; author: string; conten
 
         return await response.json(); // Returns the saved blog post from the server
     } catch (error) {
-        console.error("Error saving blog post:", error);
+        console.error("[connection.ts]: Error saving blog post:", error);
         throw error;
     }
 }
